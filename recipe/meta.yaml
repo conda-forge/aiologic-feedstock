@@ -1,5 +1,5 @@
 {% set name = "aiologic" %}
-{% set version = "0.14.0" %}
+{% set version = "0.15.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/aiologic-{{ version }}.tar.gz
-  sha256: c87925fa2bfe9ae292859e1094eb8fb6d456c8202a16405b0a44134803c8a791
+  sha256: 2aa851d2298588f9bfa543a425773e8c3e07069f96c09ccc7106c0dd899fe5fd
 
 build:
   noarch: python
