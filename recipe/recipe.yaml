@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: aiologic
-  version: "0.17.0"
+  version: "0.17.1"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/aiologic-${{ version }}.tar.gz
-  sha256: 65aa058e858c94cd208badb188e7f00b54dcabb3ba85b34f794db98074d108b9
+  sha256: 2e1b93b9e88ced318c2a63ad7b382688f40cbfe40e3d42258d49dc9c5aea179d
 
 build:
   number: 0
